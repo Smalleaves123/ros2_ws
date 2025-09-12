@@ -11,7 +11,7 @@ find_package(robot_state_publisher REQUIRED)
 find_package(urdf REQUIRED)
 
 install(
-  DIRECTORY launch meshes src urdf rviz
+  DIRECTORY launch meshes urdf rviz
   DESTINATION share/iqr_tb4_description
 )
 

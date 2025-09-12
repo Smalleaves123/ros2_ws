@@ -12,7 +12,7 @@ find_package(ament_cmake REQUIRED)
 # find_package(<dependency> REQUIRED)
 
 install(
-  DIRECTORY launch src config
+  DIRECTORY launch config
   DESTINATION share/iqr_tb4_bringup
 )
 
