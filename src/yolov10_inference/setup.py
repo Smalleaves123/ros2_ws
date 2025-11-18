@@ -29,6 +29,7 @@ setup(
     entry_points={
         'console_scripts': [
         'yolo_rgs = yolov10_inference.yolo_rgs:main',
+        'bbox_to_3d = yolov10_inference.bbox_to_3d:main',
         ],
     },
 )
